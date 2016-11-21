@@ -30,6 +30,11 @@ module FunWithStrings
        hash[key] = [word]
      end
    end
+   # result = []
+   # hash.each do |k,v| 
+   # result << v
+   # end
+   # return result
    return hash.values
   end
 end
